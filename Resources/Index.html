@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>My Web Project - WEB ATELIER (UDIT)</title>
+    <meta name="author" content="Robi Falagán" />
+    <meta
+      name="description"
+      content="A student web project for WEB ATELIER (UDIT) course"
+    />
+    <link href="../assets\css\Index.css" rel="stylesheet" />
+    <link href="../assets\css\Resources.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar navbar-dark bg-dark" id="top">
+        <div class="container d-flex justify-content-between">
+          <p>
+            <a
+              href="https://github.com/robi-fgn"
+              class="navbar-brand d-flex align-items-center"
+            >
+              <strong>Robi Falagán</strong>
+            </a>
+            Bachelor in Multimedia and Graphic Design <br />
+            Web Layout with Style Sheets course <br />
+            UDIT, 2025
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section class="general text-center">
+        <div class="container extra-maring-vertical-m">
+          <h1 class="general-heading">Web Design Tools</h1>
+          <p class="lead text-muted">
+            In this website, I will be writing my personal notes on what I found
+            out about CSS frameworks, JavaScript frameworks, and templating
+            tools used in modern-day web design.
+          </p>
+          <p>
+            <a
+              href="https://github.com/robi-fgn"
+              class="btn btn-secondary my-2 extra-margin-horizontal-s"
+              >Github profile ↗</a
+            >
+            <a
+              href="https://github.com/robi-fgn/Robi_Falagan_Commit"
+              class="btn btn-secondary my-2 extra-margin-horizontal-s"
+              >Github webpage ↗</a
+            >
+          </p>
+          <div class="container extra-maring-bottom">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="btn-group">
+                <a
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  href="#nodejs"
+                >
+                  Node.js
+                </a>
+                <a
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  href="#no-runtime"
+                >
+                  No runtime
+                </a>
+                <a
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  href="#alternative-runtime"
+                >
+                  Alternative runtime
+                </a>
+              </div>
+              <div class="btn-group extra-margin-horizontal-s">
+                <a
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  href="#reflection"
+                >
+                  Critical reflection
+                </a>
+                <a
+                  type="button"
+                  class="btn btn-sm btn-outline-secondary"
+                  href="#glossary"
+                >
+                  Glossary
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 id="nodejs">◇ Node.js</h2>
+          <p class="lead extra-maring-bottom">
+            Node.js is a JavaScript runtime environment that allows developers
+            to run JavaScript code outside of the browser.It provides access to
+            powerful package managers, which make it easy to install and manage
+            libraries. <br />
+            Tools that require Node.js are part of the modern web development
+            ecosystem, offering flexibility and automation — but they might
+            require setup, command-line use, and sometimes higher system
+            resources, which could seem like a barrier for beginners.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Tailwind embedded website"
+                  src="https://tailwindcss.com/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>TailwindCSS</h4>
+                  <p class="card-text">
+                    Tailwind CSS is a utility-first framework in which one can
+                    apply predefined styles directly into the HTML. Its compiler
+                    (JIT) generates only the classes used, therefore reducing
+                    the final CSS size. It allows for the building of consistent
+                    design systems with a professional look, avoiding the task
+                    of writing custom CSS from scratch.<br /><br />
+                    <strong>Learning curve: </strong>Medium (requires learning
+                    each class name)<br />
+                    <strong>Use: </strong>Modern websites and apps<br />
+                    <span class="badge node">Node.js</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://tailwindcss.com/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Astro embedded website"
+                  src="https://astro.build/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>Astro</h4>
+                  <p class="card-text">
+                    Astro is a content-driven framework that works with
+                    <a class="highlight-yellow" href="#glossary">
+                      island architecture.
+                    </a>
+                    This implies the priorization of static content, while
+                    having the flexibility to introduce specific interactive
+                    elements when needed. Only the interactive elements load
+                    JavaScript, improving its performance.
+                    <br /><br />
+                    <strong>Learning curve: </strong>Medium <br />
+                    <strong>Use: </strong>Static marketing sites, websites with
+                    selective interactivity.<br />
+                    <span class="badge node">Node.js</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://astro.build/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 6rem"></div>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 id="no-runtime">◇ No runtime programme</h2>
+          <p class="lead extra-maring-bottom">
+            Tools in this category do not require any special runtime
+            environment to function. They can run directly in the browser or by
+            simply linking their CSS or JavaScript files from a CDN, becoming
+            lightweight, accessible, and ideal for quick prototyping or student
+            projects like this one. These frameworks are easy to learn and
+            implement, and require no installation or messy learning curve.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Bootstrap embedded website"
+                  src="https://getbootstrap.com/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>Bootstrap</h4>
+                  <p class="card-text">
+                    Bootstrap is a classic framework that works with a grid
+                    system and ready-to-use components. It doen't need Node.js
+                    or any other runtime programme, it only requires the linking
+                    of its CSS and JS files.
+                    <br /><br />
+                    <strong>Learning curve: </strong>Beginner friendly<br />
+                    <strong>Use: </strong>Fast prototypes and educational
+                    work<br />
+                    <span class="badge no-runtime">No Runtime</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://getbootstrap.com/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Greensock animation embedded website"
+                  src="https://gsap.com/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>GSAP</h4>
+                  <p class="card-text">
+                    GSAP (GreenSock Animation Platform) is a highly optimized
+                    JavaScript library. It allows for a precise control of
+                    animations through the use of timelines, scroll triggers and
+                    sequence animations. It has the downside of being limited to
+                    simple animations as it isn't a full framework in itself.
+                    <br /><br />
+                    <strong>Learning curve: </strong>Medium - High (there are
+                    various controls that might be complex)<br />
+                    <strong>Use: </strong>Portfolios and web presentations<br />
+                    <span class="badge no-runtime">No Runtime</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://gsap.com/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Animate on scroll library embedded website"
+                  src="https://michalsnik.github.io/aos/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>AOS</h4>
+                  <p class="card-text">
+                    AOS (animate on Scroll), as the name suggests, is an
+                    animation library that offers a variety of scroll-triggered
+                    animation codes, ready for the user to copy and paste into
+                    their project. AOS doesn't need Node.js, it works through a
+                    connection to a
+                    <a class="highlight-yellow" href="#glossary">
+                      CDN (Content Delivery Network).
+                    </a>
+                    <br /><br />
+                    <strong>Learning curve: </strong>Easy - Medium <br />
+                    <strong>Use: </strong>Static websites that may need
+                    dynamism<br />
+                    <span class="badge no-runtime">No Runtime</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://michalsnik.github.io/aos/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 6rem"></div>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 id="alternative-runtime">◇ Alternative runtime programmes</h2>
+          <p class="lead extra-maring-bottom">
+            Some tools don't rely on Node.js but use other runtime environments
+            or architectures. Self-contained executables, cloud-based services
+            and different programmes like Ruby are all alternatives that prove
+            web development doesn't depend solely on Node.js.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Jekyll embedded website"
+                  src="https://jekyllrb.com/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>Jekyll</h4>
+                  <p class="card-text">
+                    Jekyll is a classic static site generator that converts
+                    plain text from Markdown files into static websites through
+                    the use of liquid templates. It's simple and easy to
+                    integrate to Github, but it lacks interactivity.
+                    <br /><br />
+                    <strong>Learning curve: </strong>Easy - Medium<br />
+                    <strong>Use: </strong>Personal or simple educational
+                    projects that don't need interactivity<br />
+                    <span class="badge ruby">Ruby</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://jekyllrb.com/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Hugo embedded website"
+                  src="https://gohugo.io/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>Hugo</h4>
+                  <p class="card-text">
+                    Hugo is an ultra-fast static site generator that, just like
+                    Jekyll does, uses Markdown files to create static websites.
+                    It has a simple instalation process and its
+                    <a class="highlight-yellow" href="#glossary">
+                      standalone binary
+                    </a>
+                    runtime doesn't require the use of Node.js nor any other
+                    programme.
+                    <br /><br />
+                    <strong>Learning curve: </strong>Easy - Medium<br />
+                    <strong>Use: </strong>Blogs and personal projects<br />
+                    <span class="badge standalone">Standalone Binary</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://gohugo.io/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <iframe
+                  class="card-img-top"
+                  alt="Hygraph embedded website"
+                  src="https://hygraph.com/"
+                  data-holder-rendered="true"
+                  style="height: 225px; width: 100%; display: block"
+                >
+                </iframe>
+                <div class="card-body">
+                  <h4>Hygraph</h4>
+                  <p class="card-text">
+                    Hygraph is a
+                    <a class="highlight-yellow" href="#glossary">
+                      headless CMS (Content Management System)
+                    </a>
+                    that works in the Cloud and allows for the creation of
+                    content through API GraphQL, without installing any local
+                    software. It's a framework that allows dynamicity in a
+                    static site. <br /><br />
+                    <strong>Learning curve: </strong>Medium<br />
+                    <strong>Use: </strong>Modern websites and apps<br />
+                    <span class="badge saas">SaaS</span>
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <a
+                      href="https://hygraph.com/"
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Go to website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container extra-maring-vertical-m">
+        <h2 class="extra-maring-bottom" id="reflection">
+          ◇ Critical reflection
+        </h2>
+        <p>
+          I found out that the web development ecosystem is much broader than I
+          initially thought. While Node.js is a powerful and widely used runtime
+          environment, there are many other tools and frameworks that do not
+          rely on it such as Bootstrap, GSAP or Hygraph. <br />
+          Despite the variety of options these tools offer, I think I ay start
+          trying out the fun-looking beginner-friendly options. For me these
+          would be Bootstrap for CSS frameworks and any of the animation
+          libraries I have seen: GSAP or AOS. <br />
+          I would like to try out Astro as well, as it seems to be a modern and
+          interesting framework that prioritizes performance, but I consider
+          myself a noob at coding, so this wil be my next option when I feel
+          more confident working with code and have a better understanding of
+          JavaScript. I want to develop my overall skills and knowledge before
+          going into new terrain.<br />
+          Throughout this research, I have been thinking on wether I should try
+          out Node.js for I have seen its influence and how many tools depend on
+          it. I feel intimidated by the though of having to get into something
+          new and complex, but I can look for beginner-level tools and tutorials
+          to get started.
+        </p>
+      </div>
+
+      <div class="container extra-maring-vertical-m">
+        <h2 class="extra-maring-bottom" id="glossary">◇ Glossary</h2>
+        <p>
+          <strong>CDN: </strong>A content delivery network is a group of
+          geographically distributed servers that speed up the delivery of web
+          content by bringing it closer to users. <br /><br />
+          <strong>CMS: </strong>A content management system is software that
+          helps users create, manage, store, and modify their digital content
+          <br /><br />
+          <strong>headless CMS: </strong>A modern content management system that
+          separates content creation (backend) from content presentation
+          (frontend) using APIs. This separation allows your content to be
+          delivered across any platform — from websites to mobile apps, smart
+          devices, and beyond. <br /><br />
+          <strong>Island architecture: </strong>a pioneering approach to web
+          development that aims to enhance performance by combining concepts
+          from server-side rendering, static site generation, and partial
+          hydration. It encourages small, focused chunks of interactivity within
+          server-rendered web pages. <br /><br />
+          <strong>SaaS: </strong>Software as a Source is a method of software
+          delivery in which software is accessed online (in the Cloud) via a
+          subscription, rather than bought and installed on individual
+          computers. <br /><br />
+          <strong>Standalone binary: </strong>A self-contained executable
+          program that can be run directly on computer without the need of any
+          runtime.<br /><br />
+        </p>
+      </div>
+    </main>
+
+    <footer class="navbar-dark bg-dark">
+      <div class="container">
+        <p class="float-right">
+          <a href="#top" style="color: white">Back to top</a>
+        </p>
+        <p>
+          Thanks for reading!<br />
+          This is a student project for the Web Layout with style sheets course
+          at UDIT University.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
